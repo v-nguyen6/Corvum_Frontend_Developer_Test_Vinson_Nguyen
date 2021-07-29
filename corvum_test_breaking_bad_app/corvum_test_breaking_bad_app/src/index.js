@@ -1,6 +1,12 @@
+/*
+----------------------------------------------------------------
+General React Dependencies / Custom Imports & Components
+----------------------------------------------------------------
+*/
+// React Dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.css';
+// import App.js to use within index!
 import App from './App';
 
 // Stylesheet

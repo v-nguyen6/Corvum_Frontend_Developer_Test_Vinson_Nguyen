@@ -7,7 +7,7 @@ General React Dependencies / Custom Imports & Components
 import React from 'react';
 import {useState, useEffect } from 'react';
 // Used to communicate with API's more easily
-//import axios from 'axios';
+import axios from 'axios';
 
 
 //import './App.css';
@@ -15,7 +15,7 @@ import {useState, useEffect } from 'react';
 function App() {
   return (
     <div> 
-      <p> hey brosif</p>
+      <p> hey brosif!</p>
 
     </div>
   );

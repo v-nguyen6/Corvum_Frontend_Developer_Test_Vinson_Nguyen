@@ -1,3 +1,47 @@
-p {
-    color: red;
-}
+/*
+----------------------------------------------------------------------
+|                       Main Stylesheet Guide
+----------------------------------------------------------------------
+
+| ------ Table of Contents ------
+| 0. Abstracts/ 
+|   |- _variable.scss                 # Sass Variables
+|   |- _mixins.scss                   # Sass Mixins
+|
+| 1. Base/
+|   |- _base.scss                     # All Element Selectors / Typography Styling
+|   |- _normalize.scss                # Normalize / Reset
+|   
+| 2. Layouts/
+|   |- _footer.scss                   # Footer
+|   |- _header.scss                   # Header
+|
+| 3. Components/
+|   |- _character-grid.scss           # Character Grid Template
+|   |- _character-item.scss           # Character Item Info
+|   |- _loading-spinner.scss          # Character Grid Template
+|   |- _search-bar.scss               # Character Item Info
+|
+|- styles.scss - (Main Sass File)
+*/
+
+//--- Set encoding
+@charset "utf-8";
+
+//--- Abstracts
+@import "./0-abstracts/variables";
+
+//--- Base
+@import "./1-base/base";
+
+//--- Layouts
+@import "./2-layouts/footer";
+@import "./2-layouts/header";
+
+//--- Components
+// Characters
+@import "./3-components/character-grid";
+@import "./3-components/character-item";
+// Widgets
+@import "./3-components/loading-spinner";
+@import "./3-components/search-bar";
