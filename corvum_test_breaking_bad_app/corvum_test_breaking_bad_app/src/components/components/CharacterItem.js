@@ -18,16 +18,19 @@ const CharacterItem = ({ item }) => {
           <h1>{item.name}</h1>
           <ul>
             <li>
-              <strong>Actor Name:</strong> {item.portrayed}
-            </li>
-            <li>
               <strong>Nickname:</strong> {item.nickname}
             </li>
             <li>
-              <strong>Birthday:</strong> {item.birthday}
+              <strong>Actor Name:</strong> {item.portrayed}
+            </li>
+            <li>
+              <strong>Occupation:</strong> {item.occupation}
             </li>
             <li>
               <strong>Status:</strong> {item.status}
+            </li>
+            <li>
+              <strong>Appearance:</strong> {item.appearance}
             </li>
           </ul>
         </div>

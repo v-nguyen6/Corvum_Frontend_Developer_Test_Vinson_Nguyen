@@ -11,13 +11,11 @@ import {useState, useEffect } from 'react';
 import axios from 'axios';
 
 // Layouts 
-//import Footer from "./components/layouts/Footer";
 import Header from "./components/layouts/Header";
 
-// Components / Widgets
+// Components
 import Home from "./components/components/Home";
 import About from "./components/components/About";
-import SearchBar from "./components/widgets/SearchBar";
 
 //--------------------------------------------------------------
 const App = () => {
@@ -35,7 +33,6 @@ const App = () => {
             </Switch>
           </main>
         </div>
-       
       </React.Fragment>
     </Router>
   );

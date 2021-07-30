@@ -13,14 +13,15 @@
 |   |- _normalize.scss                # Normalize / Reset
 |   
 | 2. Layouts/
-|   |- _footer.scss                   # Footer
-|   |- _header.scss                   # Header
+|   |- _header.scss                   # Header Styling
 |
 | 3. Components/
+|   |- _about.scss                    # About Page Styling
 |   |- _character-grid.scss           # Character Grid Template
 |   |- _character-item.scss           # Character Item Info
-|   |- _loading-spinner.scss          # Character Grid Template
-|   |- _search-bar.scss               # Character Item Info
+|   |- _home.scss                     # Home Page Styling
+|   |- _loading-spinner.scss          # Loading Spinner Styling
+|   |- _search-bar.scss               # Search Bar Styling
 |
 |- styles.scss - (Main Sass File)
 */
@@ -35,10 +36,12 @@
 @import "./1-base/base";
 
 //--- Layouts
-@import "./2-layouts/footer";
 @import "./2-layouts/header";
 
 //--- Components
+// Individual Page Styling
+@import "./3-components/about";
+@import "./3-components/home";
 // Characters
 @import "./3-components/character-grid";
 @import "./3-components/character-item";

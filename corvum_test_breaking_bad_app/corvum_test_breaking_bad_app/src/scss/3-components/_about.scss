@@ -1,0 +1,80 @@
+/*
+---------------------------------------------------------------
+* --- About Page Styling
+---------------------------------------------------------------
+*/
+// --- Imports
+@import "../0-abstracts/abstracts";
+
+.about-section {
+    h2 {
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 1.6em;
+    }
+
+    &__description {
+        p {
+            margin: auto;
+            max-width: 750px;
+            padding-left: 40px;     
+            padding-right: 40px;
+            padding-bottom: 20px;
+            font-size: 0.8em;
+        }
+    }
+
+    &__list {
+        p {
+            margin: auto;
+        }
+        ul {
+            margin: auto;
+            text-align: center;
+            font-size: 1.2em;
+            line-height: 25px;
+            
+        }
+        a {
+            &:hover {
+                color: darkgreen;
+            }
+        }
+    }
+
+    &__credits {
+        p {
+            margin: auto;
+            max-width: 750px;
+            padding-left: 40px;     
+            padding-right: 40px;
+            //padding-bottom: 20px;
+            font-size: 0.8em;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+    }
+    &__links {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        max-width: 750px;
+        margin-bottom: 50px;
+    
+        a{
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+            transition: all .5s ease-out;
+            text-align: center;
+            padding: 10px;
+
+            &:hover {
+                background-color: darkgreen;
+            }
+        }
+    }
+}
