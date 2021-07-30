@@ -12,6 +12,7 @@ import App from './App';
 // Stylesheet
 import "./scss/styles.scss";
 
+//--------------------------------------------------------------
 ReactDOM.render(
   <React.StrictMode>
     <App />
