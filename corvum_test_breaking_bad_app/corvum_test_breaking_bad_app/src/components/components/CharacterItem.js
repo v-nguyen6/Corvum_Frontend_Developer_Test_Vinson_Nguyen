@@ -10,9 +10,9 @@ import React from 'react'
 const CharacterItem = ({ item }) => {
   return (
     <div className='card'>
-      <div className='card-inner'>
+      <div className='card-item'>
         <div className='card-front'>
-          <img src={item.img} alt='' />
+          <img src={item.img} alt='Breaking Bad Character Images' />
         </div>
         <div className='card-back'>
           <h1>{item.name}</h1>
@@ -23,7 +23,7 @@ const CharacterItem = ({ item }) => {
             <li>
               <strong>Actor Name:</strong> {item.portrayed}
             </li>
-            <li>
+            <li className="occupation">
               <strong>Occupation:</strong> {item.occupation}
             </li>
             <li>

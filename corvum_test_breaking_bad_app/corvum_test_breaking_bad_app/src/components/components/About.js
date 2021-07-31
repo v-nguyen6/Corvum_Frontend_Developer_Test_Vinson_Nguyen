@@ -30,7 +30,8 @@ const About = () => {
                 <p> 
                     In terms of extra features, I wanted to highlight a few extra things I added to improve functionality and professionalism. 
                     I added a loading javascript spinner which allows users to see a loading graphic as the data is being called from the API. 
-                    I also added a nav bar which allows users to be able to navigate from the about page and back, while keeping in mind mobile responsiveness. 
+                    I also added a nav bar which allows users to be able to navigate from the about page and back, while keeping in mind mobile
+                     responsiveness. Ontop of that, the logo and favicon was custom made by me using Adobe Illustrator!
                 </p>
                 <div className="about-section__list">
                     <p>

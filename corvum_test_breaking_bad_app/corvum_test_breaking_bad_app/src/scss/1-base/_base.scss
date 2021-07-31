@@ -42,7 +42,7 @@ h1,
 h2, 
 h3 {
     font-size: 2.45em;
-    //font-family: $font1;
+    font-family: $font1;
     //font-weight: 700;
 }
 
@@ -50,7 +50,7 @@ h4,
 h5, 
 h6 {
     font-size: 2.45em;
-    //font-family: $font1;
+    font-family: $font1;
     //font-weight: 400;
 }
 
@@ -58,8 +58,8 @@ a {
     text-decoration: none;
     color: white;
     font-size: 0.85em;
-    //font-family: $font1;
-    //font-weight: 600;
+    font-family: $font1;
+    font-weight: 600;
     // Media Query for Mobile/Tablet
     @media screen and (min-width: 50em) {
         font-size: 0.9em;
@@ -69,7 +69,7 @@ a {
 li {
     list-style-type: none;
     font-size: 0.85em;
-    //font-family: $font3;
+    font-family: $font2;
     //font-weight: 250;
     //letter-spacing: 1px;
     // Media Query for Mobile/Tablet
@@ -81,8 +81,8 @@ li {
 p {
     line-height: 1.75;
     font-size: 0.85em;
-    //font-family: $font3;
-    //font-weight: 300;
+    font-family: $font2;
+    font-weight: 300;
     // Media Query for Mobile/Tablet
     @media screen and (min-width: 50em) {
         font-size: 0.9em;

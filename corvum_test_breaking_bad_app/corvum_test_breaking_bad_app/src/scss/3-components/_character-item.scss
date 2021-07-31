@@ -1,0 +1,81 @@
+/*
+---------------------------------------------------------------
+* --- Card-Grid Styling Styling
+---------------------------------------------------------------
+*/
+// --- Imports
+@import "../0-abstracts/abstracts";
+
+.card {
+    cursor: pointer;
+    background-color: transparent;
+    height: 350px;
+    perspective: 1000px;
+
+    h1 {
+        font-size: 1.5em;
+        border-bottom: 1px white solid;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    li {
+        list-style: none;
+        padding-bottom: 17px;
+        font-size: 1em;
+    }
+}
+
+.card-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+    &:hover {
+        transform: rotateY(180deg);
+    }
+}
+
+.card-front, 
+.card-back {
+
+    position: absolute;
+    // covers entire card section (mobile)
+    width: 100%;
+    //height: 100%;
+    // hides/differentiates front from back card
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    background-color: $green2;
+    color: white;
+    padding: 20px;
+    // rotates to show the back card
+    transform: rotateY(180deg);
+
+    // Occupation Styling
+    .occupation {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card {
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}

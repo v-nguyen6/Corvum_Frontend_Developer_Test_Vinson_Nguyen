@@ -46,7 +46,7 @@ const Header = () => {
             <Headroom>
                 <Link to={"/"}>
                     <h1 className="header-logo">
-                        Breaking Bad
+                        BREAKING BAD
                     </h1>
                 </Link>
 

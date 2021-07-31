@@ -15,7 +15,7 @@ const CharacterGrid = ({ items, isLoading }) => {
     return isLoading ? (
       <LoadingSpinner />
     ) : (
-      <section className='cards'>
+      <section className='character-grid'>
         {items.map((item) => (
           <CharacterItem key={item.char_id} item={item}></CharacterItem>
         ))}

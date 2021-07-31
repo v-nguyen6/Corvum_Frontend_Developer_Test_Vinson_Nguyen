@@ -18,11 +18,11 @@
     &__description {
         p {
             margin: auto;
-            max-width: 750px;
-            padding-left: 40px;     
-            padding-right: 40px;
+            max-width: 1200px;
+            padding-left: 60px;     
+            padding-right: 60px;
             padding-bottom: 20px;
-            font-size: 0.8em;
+            font-size: 0.9em;
         }
     }
 
@@ -39,7 +39,7 @@
         }
         a {
             &:hover {
-                color: darkgreen;
+                color: $green;
             }
         }
     }
@@ -47,11 +47,11 @@
     &__credits {
         p {
             margin: auto;
-            max-width: 750px;
-            padding-left: 40px;     
-            padding-right: 40px;
+            max-width: 800px;
+            padding-left: 60px;     
+            padding-right: 60px;
             //padding-bottom: 20px;
-            font-size: 0.8em;
+            font-size: 0.9em;
             margin-top: 40px;
             margin-bottom: 40px;
         }
@@ -73,8 +73,22 @@
             padding: 10px;
 
             &:hover {
-                background-color: darkgreen;
+                background-color: #065E2A;
             }
         }
+    }
+
+    @media screen and (min-width: 600px) {
+        p {
+            font-size: 1em;
+        }
+
+    }
+
+    @media screen and (min-width: 900px) {
+        p {
+            font-size: 1.1em;
+        }
+
     }
 }
