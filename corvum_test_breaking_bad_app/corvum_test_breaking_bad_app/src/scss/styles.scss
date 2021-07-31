@@ -19,7 +19,6 @@
 |   |- _about.scss                    # About Page Styling
 |   |- _character-grid.scss           # Character Grid Template
 |   |- _character-item.scss           # Character Item Info
-|   |- _home.scss                     # Home Page Styling
 |   |- _loading-spinner.scss          # Loading Spinner Styling
 |   |- _search-bar.scss               # Search Bar Styling
 |
@@ -41,7 +40,6 @@
 //--- Components
 // Individual Page Styling
 @import "./3-components/about";
-@import "./3-components/home";
 // Characters
 @import "./3-components/character-grid";
 @import "./3-components/character-item";

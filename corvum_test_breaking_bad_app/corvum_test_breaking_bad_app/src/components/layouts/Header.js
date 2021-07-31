@@ -13,6 +13,7 @@ import { useState } from "react";
 import Headroom from "react-headroom"; 
 // - Hamburger Menu (controls the creation and animation of hamburger menu)
 import { Twirl as Hamburger } from "hamburger-react";
+import logo from "../../assets/logo.png";
 
 //--------------------------------------------------------------
 const Header = () => {
@@ -45,9 +46,13 @@ const Header = () => {
         <header>
             <Headroom>
                 <Link to={"/"}>
-                    <h1 className="header-logo">
-                        BREAKING BAD
-                    </h1>
+                   
+                    <img 
+                        src={logo} 
+                        alt="Breaking Bad Logo"
+                        className="app-logo"
+                    />
+
                 </Link>
 
                 {/* Hamburger Menu Button */}

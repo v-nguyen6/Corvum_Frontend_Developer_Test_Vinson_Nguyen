@@ -18,18 +18,20 @@ header {
       width: inherit;
       height: 75px;
       background: black;
-      //backdrop-filter: blur(10px);
       color: white;
       z-index: 9999;
+
+      img {
+        width: 50px;
+        padding-top: 15px;
+        margin-left: 20px;
+      }
 
       h1 {
         font-size: 1.2em;
         margin-left: 20px;
-        //font-family: $font1;
-        //font-weight: 400;
         padding: 5px 10px;
         span {
-          //font-family: $font1;
           font-weight: 800;
         }
       }
@@ -46,7 +48,7 @@ header {
       .hamburger-react {
         margin-right: 25px;
         &:hover {
-          color: darkgreen;
+          color: $green1;
         }
       }
 
