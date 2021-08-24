@@ -1,4 +1,4 @@
-# Corvum_Frontend_Developer_Test_Vinson_Nguyen
+# React App - Breaking Bad API
  Corvum - Frontend Developer - Test Project to utilize the Breaking Bad API
 
 In order to run the app, simply run "npm install" on your terminal!
